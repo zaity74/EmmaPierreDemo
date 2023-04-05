@@ -1,0 +1,127 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* Body */
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    width: 100vw;
+    height: 120px;
+}
+
+/* HEADER TOP */
+.header .header-top{
+    width: 100%;
+    height: 60%;
+}
+
+.header .header-top .header-top-container{
+    max-width: 1280px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+    /* Search */
+    .header .header-top .header-top-container .searchbar{
+        border: none;
+        border-bottom : 1px #8D8D8D solid;
+        outline: none;
+        text-transform: uppercase;
+        font-weight: 500;
+        opacity: 0.7;
+        position: relative;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    /* Logo */
+    .header .header-top .header-top-container a{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #8D8D8D;
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+
+    }
+
+    .header .header-top .header-top-container a .logo{
+        height: 54px;
+    
+    }
+
+    /* User-action */
+    .header .header-top .header-top-container .user-action{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    
+    }
+
+    .header .header-top .header-top-container .user-action .connexion{
+        column-gap: 12px;
+    
+    }
+    .header .header-top .header-top-container .user-action .connexion:hover{
+        color: #DAA379;
+    
+    }
+    .header .header-top .header-top-container .user-action-link{
+        padding-left: 12px;
+        padding-right:12px;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .header .header-top .header-top-container .user-action-link i{
+        font-size: 20px;
+    }
+
+ /* HEADER BOTTOM */
+ .header .header-bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: #F0E5D3;
+}
+.header .header-bottom .nav-link{
+    max-width: 1280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.header .header-bottom .nav-link .link{
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8D8D8D;
+}
+.header .header-bottom .nav-link .link:hover{
+    background-color: #DAA379;
+    color: white;
+}
+.header .header-bottom .nav-link .link a{
+   text-transform: uppercase;
+   text-decoration: none;
+   color: inherit;
+   font-size: 15px;
+   font-family: 'Jost', sans-serif;
+   font-weight: 500;
+}
