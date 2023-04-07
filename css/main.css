@@ -104,6 +104,7 @@ body{
         height: 40%;
         display: flex;
         justify-content: center;
+        /*align-items: center;*/
         background-color: #F0E5D3;
     }
         /* NAV-LINK */
@@ -246,6 +247,28 @@ body{
             /* Note: backdrop-filter has minimal browser support */
 
             border-radius: 0px 0px 259px 259px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding-top: 40px;
+        }
+        .banner .hero-container .hero-card-container .center .overlay h2{
+            text-transform: uppercase;
+            color: #8D8D8D;
+            font-family: 'Jost';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            column-gap: 12px;
+        }
+        .banner .hero-container .hero-card-container .center .overlay h2 .icone-fr{
+            width: 10%;
+            padding-top: 0px !important;
         }
 .banner .hero-container .hero-card-container .right{
     /*position: absolute;*/
@@ -742,6 +765,9 @@ body{
     }
 
 /* ============= NEWS ============ */
+.blog{
+    background-color: white !important;
+}
 .news{
     width: 100vw;
     height: auto;
@@ -1625,6 +1651,9 @@ body{
     }
 
 /* ============= NEWS ============ */
+.blog{
+    background-color: white !important;
+}
 .news{
     width: 100vw;
     height: auto;
@@ -2401,6 +2430,9 @@ body{
     }
 
 /* ============= NEWS ============ */
+.blog{
+    background-color: white !important;
+}
 .news{
     width: 100vw;
     height: auto;
