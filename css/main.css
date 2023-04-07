@@ -692,8 +692,8 @@ body{
     .product .product-container .slide .slide-container .slide-card .box-img{
         border: 6px solid #FFFFFF;
         filter: drop-shadow(-3px 5px 12px rgba(0, 0, 0, 0.15));
-        border-radius: 146px 146px 146px 0px;
-        transform: rotate(180deg);
+        border-radius: 0px 146px 146px 146px;
+        transform: rotate(359deg);
         width: 230px;
         height: 251px;
     }
